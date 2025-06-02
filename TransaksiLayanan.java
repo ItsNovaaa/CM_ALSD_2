@@ -13,5 +13,6 @@ public class TransaksiLayanan {
 
     public int hitungBiaya() {
         return this.durasiLayanan * 50000;
+        
     }
 }
