@@ -8,11 +8,10 @@ public class TransaksiLayanan {
         this.pasien = pasien;
         this.dokter = dokter;
         this.durasiLayanan = durasiLayanan;
-        this.biaya = hitungBiaya();
+        this.biaya = durasiLayanan * 50000;
     }
 
-    public int hitungBiaya() {
-        return this.durasiLayanan * 50000;
-        
+    public void print(){
+        System.out.println(pasien.nama + " (" + durasiLayanan + " jam): Rp " + biaya);
     }
 }

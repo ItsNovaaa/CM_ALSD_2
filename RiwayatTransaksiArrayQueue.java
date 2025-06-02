@@ -36,7 +36,7 @@ public class RiwayatTransaksiArrayQueue {
             System.out.println("Daftar Transaksi:");
             int i = front;
             for (int count = 0; count < size; count++) {
-                System.out.println(data[i]); 
+                data[i].print();
                 i = (i + 1) % max;
             }
         }

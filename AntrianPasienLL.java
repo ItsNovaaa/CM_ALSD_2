@@ -22,9 +22,6 @@ public class AntrianPasienLL {
             NodePasien tmp = head;
             while (tmp != null) {
                 tmp.data.tampilkanInformasi();
-                if (tmp.next != null) {
-                    System.out.println("---");
-                }
                 tmp = tmp.next;
             }
             System.out.println();
