@@ -20,15 +20,6 @@ public class RiwayatTransaksiArrayQueue {
         return size == max;
     }
 
-    // public void peek() {
-    //     if (!isEmpty()) {
-    //         // Menggunakan metode baru: representasiString()
-    //         System.out.println("Elemen terdepan: " + data[front].representasiString()); 
-    //     } else {
-    //         System.out.println("Riwayat transaksi masih kosong");
-    //     }
-    // }
-
     public void print() {
         if (isEmpty()) {
             System.out.println("Belum ada riwayat transaksi.");
